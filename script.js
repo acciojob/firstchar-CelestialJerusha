@@ -1,5 +1,10 @@
 function firstChar(text) {
   // your code here
+	for(let i=0;i<text.length;i++){
+		if(text.charAt(i) >= 'A' && text.charAt(i)<='Z' || text.charAt(i) >= 'a' && text.charAt(i)<='z'){
+			return text.charAt(i);
+		}
+	}
 	return text.charAt(0);
 } 
 
