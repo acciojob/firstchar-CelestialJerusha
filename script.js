@@ -1,6 +1,7 @@
 function firstChar(text) {
   // your code here
-}
+	return text.charAt(0);
+} 
 
 // Do not change the code below
 
